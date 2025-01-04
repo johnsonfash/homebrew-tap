@@ -1,9 +1,8 @@
 class Env2 < Formula
-  desc "env2 CLI tool"
-  homepage "https://github.com/yourusername/env2"
-  url "https://github.com/yourusername/env2/releases/download/v1.0.0/env2-macos"
-  sha256 "<sha256sum>"
-  license "MIT"
+  desc "CLI tool for environment management"
+  homepage "https://github.com/johnsonfash/env2"
+  url "https://github.com/johnsonfash/env2/releases/download/v1.0.0/env2-macos"
+  sha256 "<SHA256SUM>"
 
   def install
     bin.install "env2-macos" => "env2"
